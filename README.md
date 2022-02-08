@@ -2,5 +2,7 @@
 
 <br>
 <h2><a href='https://nomadcoders.co/javascript-for-beginners/lobby'>nomad_chrome</a></h2>
-- making chrome application with vanilla JS
-- Learn basic javascript grammers.
+<ul>
+  <li>Making chrome application with vanilla JS</li>
+  <li>Learn basic javascript grammers </li>
+</ul>
