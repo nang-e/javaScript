@@ -2,15 +2,24 @@
 <html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Vanilla Js</title>
-    <link rel="stylesheet" href="review.css">
+    <title>NangMade Momentum</title>
+    <link rel="stylesheet" href="CSS/review.css">
   </head>
   <body>
-    <h1 class="hidden"></h1>
+    <h1 class="hidden" id="greetings"></h1>
+    <h1 id="clockDay"></h1>
+    <h2 id="clock"></h2>
     <form id="userform">
       <input required maxlength=15 type="text" placeholder="Input your name">
       <button type="submit">Login</button>
     </form>
-    <script src='button.js'></script>
+    <div id="quotes">
+      <span id='quote'></span><br>
+      <span id="who"></span>
+    </div>
+    <script src='JS/greetings.js'></script>
+    <script src='Js/clock.js'></script>
+    <script src='Js/quote.js'></script>
+    <script src='Js/background.js'></script>
   </body> 
 </html>
