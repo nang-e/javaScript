@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    margin:0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+    padding: 0px 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar_logo{
+    color:#6495ed;
+    padding-left:10px;
+    font-size:24px;
+}
+
+.navbar_logo i{
+    padding-right:5px;
+}
+
+.navbar_menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left:0px;
+    font-size:18px;
+}
+
+.navbar_menu li{
+    padding: 8px 30px;
+}
+
+.navbar_menu li>a:hover{
+    color:#808080;
+}
+
+.navbar_sns{
+    color:cornflowerblue;
+    padding:0px;
+    padding-right:10px;
+    list-style:none;
+    display:flex;
+    font-size:20px;
+}
+
+.navbar_sns li{
+    padding:0px 5px;
+}
+
+.navbar_sns li>a:hover{
+    color:#808080;
+}
+
+a {
+    text-decoration: none;
+    color:#fff8dc;
+}
+
+.toggleBtn {
+    display:none;
+}
+
+.navbar_menu_icon{
+    display:none;
+    list-style: none;
+
+}
+
+@media screen and (max-width: 800px){
+    .navbar_menu{
+        display:none;
+    }
+
+    .navbar_menu_icon{
+        display:flex;
+        margin:0px;
+        padding:0px;
+    }
+    .navbar_menu_icon li{
+        padding:8px 15px;
+    }
+
+    .navbar_menu_icon li:hover{
+        filter:contrast(0);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .navbar_logo{
+        padding:10px 0px;
+    }
+
+    .navbar_menu{
+        display:none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin:0px;
+    }
+    .navbar_menu li{
+        width:100%;
+        text-align: center;
+    }
+
+    .navbar_sns{
+        display:none;
+        width: 100%;
+        margin:0px;
+        justify-content: center;
+    }
+    .navbar_sns li{
+        padding:10px 10px;
+    }
+
+    .active{
+        display:flex;
+    }
+
+    .toggleBtn {
+        display:block;
+        position: absolute;
+        right:15px;
+    }
+    
+    .toggleBtn img{
+        padding:15px 8px 0px 8px;
+    }
+
+    .navbar_menu_icon{
+        display:none;
+    }
+}
