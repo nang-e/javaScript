@@ -7,12 +7,20 @@
   </head>
   <body>
     <h1 class="hidden" id="greetings"></h1>
-    <h1 id="clockDay"></h1>
-    <h2 id="clock"></h2>
     <form id="userform">
       <input required maxlength=15 type="text" placeholder="Input your name">
       <button type="submit">Login</button>
     </form>
+    <h1 id="clockDay"></h1>
+    <h2 id="clock"></h2>
+    <form id="todolist">
+      <input type="text" placeholder="Todo">
+    </form>
+    <ul id="todo-list">
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
     <div id="quotes">
       <span id='quote'></span><br>
       <span id="who"></span>
@@ -21,5 +29,6 @@
     <script src='Js/clock.js'></script>
     <script src='Js/quote.js'></script>
     <script src='Js/background.js'></script>
+    <script src='Js/todo.js'></script>
   </body> 
 </html>
