@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Orbitron&family=Quicksand&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+@font-face {
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  background-color:gainsboro;
+}
+
+/* Login */
+.login{
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid red;
+}
+.login form{
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+.login input{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  padding-left: 45px;
+  outline: none;
+  font-size: 18px;
+  transition: .3s;
+  font-family: 'Quicksand','LeferiPoint-WhiteObliqueA', sans-serif;
+}
+.login form::before{
+  content:'❤️‍🔥';
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.login input:hover,
+.login input:focus{
+  border: 1px solid dodgerblue;
+}
+.login button{
+  display: none;
+}
+.login label{
+  font-size: 25px;
+  margin-left: 15px;
+  transition: .3s;
+  cursor: pointer;
+}
+.login label:hover{
+  color: dodgerblue;
+}
