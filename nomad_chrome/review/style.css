@@ -60,3 +60,8 @@ body{
 .login label:hover{
   color: dodgerblue;
 }
+
+/* Add Class */
+.hidden{
+  display: none;
+}
